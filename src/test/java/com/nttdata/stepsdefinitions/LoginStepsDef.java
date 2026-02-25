@@ -9,14 +9,13 @@ import io.cucumber.java.es.Y;
 import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.WebDriver;
 
-import static com.nttdata.core.DriverManager.getDriver;
-import static com.nttdata.core.DriverManager.screenShot;
+import java.time.Duration;
 
+import static com.nttdata.core.DriverManager.*;
 
 public class LoginStepsDef {
 
     private WebDriver driver;
-
 
     private InventorySteps inventorySteps(WebDriver driver){
         return new InventorySteps(driver);
@@ -31,9 +30,7 @@ public class LoginStepsDef {
     @Cuando("inicio sesión con las credenciales usuario: {string} y contraseña: {string}")
     public void inicio_sesión_con_las_credenciales_usuario_y_contraseña(String user, String password) {
         LoginSteps loginSteps = new LoginSteps(driver);
-        loginSteps.typeUser(user);
-        loginSteps.typePassword(password);
-        loginSteps.login();
+        loginSteps.ingresoUsuarioYClave(user,password);
         screenShot();
     }
     @Entonces("valido que debería aparecer el título de {string}")
@@ -46,16 +43,8 @@ public class LoginStepsDef {
     public void también_valido_que_al_menos_exista_un_item() {
         int itemsListSize = inventorySteps(driver).getItemSize();
         //prueba: validar que al menos exista un item
-        screenShot();
         Assertions.assertTrue(itemsListSize > 0, "El tamaño de la lista es: " + itemsListSize);
-
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        esperaImplicita();
+        screenShot();
     }
-
-
-
 }
