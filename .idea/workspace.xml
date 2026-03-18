@@ -5,9 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0bd27c4-7122-42f1-b221-f3dbff48dd63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ target/cucumber/cucumber-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/QAInnovationLab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/steps/StoreSteps.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/features/store.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/cucumber-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber/cucumber.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nttdata/core/DriverManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nttdata/page/InventoryPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nttdata/page/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nttdata/runner/RunnerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nttdata/steps/InventorySteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nttdata/steps/LoginSteps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nttdata/stepsdefinitions/LoginStepsDef.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/store.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/runners/RunnerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/steps/StoreSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/MercadoLibre.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" />
@@ -174,6 +195,8 @@
       <workItem from="1773700951588" duration="5313000" />
       <workItem from="1773787545600" duration="3496000" />
       <workItem from="1773791088407" duration="9946000" />
+      <workItem from="1773801352738" duration="1122000" />
+      <workItem from="1773802500433" duration="486000" />
     </task>
     <servers />
   </component>

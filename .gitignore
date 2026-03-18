@@ -1,1 +1,16 @@
+# IntelliJ
+.idea/
+*.iml
 
+# Maven
+target/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Drivers (opcional si no quieres subirlos)
+drivers/*.exe
